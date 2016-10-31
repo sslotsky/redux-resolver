@@ -1,0 +1,34 @@
+{
+  "name": "redux-resolver",
+  "version": "1.0.0",
+  "description": "Replace your reducer's switch statements with dictionaries.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ./src/** --ext=js",
+    "test": "npm run lint",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sslotsky/redux-resolver.git"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "switch",
+    "alternative"
+  ],
+  "author": "Sam Slotsky",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "^6.11.6",
+    "eslint": "^3.9.0",
+    "webpack": "^1.13.3"
+  }
+}
