@@ -1,6 +1,6 @@
 {
   "name": "redux-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replace your reducer's switch statements with dictionaries.",
   "main": "lib/index.js",
   "scripts": {
